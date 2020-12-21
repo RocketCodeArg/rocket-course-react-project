@@ -6,7 +6,8 @@
     z-index: 10;
     width: 710px;
     height: 446px;
-    left: calc(710px - 360px);
+    left: 50%;
+    margin-left: calc(-710px/2);
     padding: 70px 77px 60px 77px;
     box-sizing: border-box;
 }
