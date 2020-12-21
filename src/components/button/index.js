@@ -1,13 +1,14 @@
 import './index.css';
 
-const onClickHandler = (onClick) => {
-    onClick && onClick();
-}
-
 const Button = (props) => {
     const { onClick, buttonText } = props;
+
+    const onClickHandler = () => {
+        onClick && onClick();
+    }
+
     return (
-        <div className="lading-button" onClick={() => onClickHandler(onClick)}>
+        <div className="lading-button" onClick={() => onClickHandler()}>
             {buttonText}
         </div>
     );
