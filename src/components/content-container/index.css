@@ -1,9 +1,9 @@
 .content-container {
-    width: 950px;
     margin: 0 auto;
-    vertical-align: middle;
     position: relative;
     top: 185px;
+    vertical-align: middle;
+    width: 950px;
 }
 
 .content-container--title {

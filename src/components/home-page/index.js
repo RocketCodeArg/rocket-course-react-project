@@ -1,7 +1,7 @@
 import './index.css';
 import ContentContainer from './../content-container/index';
 
-const HomePage = (props) => {
+const HomePage = () => {
     return (
         <div className="home-page">
             <ContentContainer />
