@@ -1,15 +1,15 @@
 .lading-button {
-    color: #ffffff;
-    background-color: #00e6c9;
-    width: 170px;
-    text-align: center;
-    margin: 0 auto;
-    padding: 10px 14px;
+    background-color: var(--background-color);
+    color: var(--white-color);
+    cursor: pointer;
     font-size: 18px;
     letter-spacing: 1.8px;
-    cursor: pointer;
+    margin: 0 auto;
+    padding: 10px 14px;
+    text-align: center;
+    width: 170px;
 }
 
 .lading-button:hover {
-    background-color: #0aa893;
+    background-color: var(--button-hover-color);
 }
